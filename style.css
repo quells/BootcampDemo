@@ -40,6 +40,10 @@ header h2 {
     text-align: left;
 }
 
+section {
+    margin: 0 0 2em;
+}
+
 #about {
     width: 32em; /* 48-15-1 */
 }
@@ -57,11 +61,12 @@ footer {
     text-align: center;
 }
 
-/* Colors */
+/* Colors and Styles */
 
 body { background-color: #666; }
 header { background-color: #234; color: #fff; }
 #wrapper { background-color: #fff; border-radius: 0 0 1em 1em; }
+ul li { list-style-type: square; list-style-position: inside; }
 
 /* Float */
 
